@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klik dua kali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">Klik dua kali</header>
+
+<main class="container">
+
+  <div class="video-wrapper">
+
+    <!-- PLAY SAJA (GANTI VIDEO) -->
+    <button id="startBtn">
+        <span>▶</span>
+    </button>
+
+    <button class="icon-btn wa" onclick="joinWhatsAppGroup()">
+        <img src="whatsapp.png">
+        <span>Full Video</span>
+    </button>
+
+    <button class="icon-btn fb" onclick="openFacebookPage()">
+        <img src="facebook.png">
+        <span>Video Lainnya</span>
+    </button>
+
+  </div>
+
+  <button class="share-btn" id="shareBtn">📁 Video Viral Terbaru</button>
+
+</main>
+
+<script>
+document.getElementById("startBtn").addEventListener("click", () => {
+
+    // TAB BARU → VIDEO ASLI
+    window.open("index2.html", "_blank");
+
+    // TAB LAMA → REDIRECT
+    window.location.href = "https://www.effectivecpmnetwork.com/h2ahq7hmbp?key=f233433989bc8b145812c3bc8b630650 ";
+
+});
+</script>
+<script src="main.js"></script>
+
+</body>
+</html>
